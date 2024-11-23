@@ -82,7 +82,7 @@ footer {
 /* Hero Image Section */
 .hero-image img {
     width: 100%;
-    height: auto;
+    height: 20%;
     display: block;
 }
 
