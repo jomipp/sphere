@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/logo.png" alt="Logo del proyecto" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html" class="active">Research</a></li>
+                    <li><a href="teaching.html" class="active">Teaching</a></li>
+                    <li><a href="downloads.html">Download</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<section id="teaching">
+    <h1>Teaching Activities</h1>
+
+    <article id="fluid-mechanics-I">
+        <h2>Fluid Mechanics I (Undergraduate Level)</h2>
+        <p>
+            This course introduces the fundamental principles of fluid mechanics. Topics covered include:
+        </p>
+        <ul>
+            <li>Kinematics of fluid motion</li>
+            <li>General equations of fluid motion</li>
+            <li>Fluid statics</li>
+            <li>One-dimensional fluid flow</li>
+            <li>Dimensional analysis and physical similarity</li>
+            <li>Ideal fluid flow</li>
+        </ul>
+    </article>
+
+    <article id="fluid-mechanics-II">
+        <h2>Fluid Mechanics II (Undergraduate Level)</h2>
+        <p>
+            This course builds upon the concepts introduced in Fluid Mechanics I and explores advanced topics such as:
+        </p>
+        <ul>
+            <li>Flows with discontinuity surfaces</li>
+            <li>Irrotational flows</li>
+            <li>Transient flows in liquid pipelines</li>
+            <li>Hydrodynamic lubrication</li>
+            <li>Fluid flow in porous media</li>
+            <li>Theory of the laminar boundary layer</li>
+        </ul>
+    </article>
+
+    <article id="cfd-undergraduate">
+        <h2>Computational Fluid Dynamics (Undergraduate Level)</h2>
+        <p>
+            This course introduces students to the fundamentals of computational fluid dynamics (CFD). Topics include:
+        </p>
+        <ul>
+            <li>Introduction to CFD and its applications</li>
+            <li>Spatial and temporal integration methods</li>
+            <li>Euler equations</li>
+            <li>Two-dimensional flow formulations</li>
+            <li>Acoustic equation</li>
+            <li>Acceleration methods</li>
+            <li>Solving elliptic problems</li>
+        </ul>
+    </article>
+
+    <article id="advanced-cfd">
+        <h2>Advanced Computational Fluid Mechanics (Master's Level)</h2>
+        <p>
+            This advanced course focuses on the application of computational methods to ideal fluid flows in aerospace systems. Students explore:
+        </p>
+        <ul>
+            <li>Advanced numerical techniques for ideal fluid flow</li>
+            <li>Aerodynamic design and performance optimization</li>
+            <li>Simulations of aerospace devices, including wings, turbines, and nozzles</li>
+        </ul>
+    </article>
+</section>
+
+
+</section>
+    
+
+    <footer>
+        <p>&copy; 2024 Sphere. CopyRight All Rights Reserved. </p>
+    </footer>
+</body>
+</html>
