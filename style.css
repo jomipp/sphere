@@ -72,3 +72,9 @@ footer {
     background: #333;
     color: white;
 }
+
+/* Tamaño del logo */
+.logo {
+    max-width: 150px; /* Ajusta el ancho máximo del logo */
+    height: auto; /* Mantiene las proporciones */
+}
