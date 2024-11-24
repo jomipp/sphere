@@ -50,6 +50,12 @@ header nav ul li a.active {
     gap: 15px; /* Espaciado entre la imagen y el texto */
 }
 
+.grid-container {
+    display: grid;
+    place-items: center; /* Centra horizontal y verticalmente */
+    height: 100vh;       /* O el tamaño deseado del contenedor */
+}
+
 .hero {
     text-align: center;
     padding: 2rem 0;
