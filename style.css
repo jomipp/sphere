@@ -45,9 +45,26 @@ header nav ul li a.active {
 }
 
 .flex-container {
-    display: flex; /* Flexbox para alinear elementos en fila */
-    align-items: center; /* Alineación vertical */
-    gap: 15px; /* Espaciado entre la imagen y el texto */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-image: url('pictures/marsZoom.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative; /* Para colocar la capa de color */
+}
+
+.flex-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    z-index: -1; /* Asegura que esta capa esté por detrás del contenido */
 }
 
 .grid-container {
