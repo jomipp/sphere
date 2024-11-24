@@ -53,7 +53,7 @@ header nav ul li a.active {
 .grid-container {
     display: grid;
     place-items: center; /* Centra horizontal y verticalmente */
-    height: 100vh;       /* O el tamaño deseado del contenedor */
+    height: 20vh;       /* O el tamaño deseado del contenedor */
 }
 
 .hero {
