@@ -135,6 +135,15 @@ footer {
     gap: 20px;
 }
 
+/* Reducir la altura de las celdas en la primera fila */
+.row:first-child .cell {
+    padding: 10px; /* Reducir el relleno interno */
+    margin: 0; /* Asegurarse de que no haya margen extra */
+    line-height: 1.2; /* Controlar el espacio entre líneas */
+    font-size: 1rem; /* Ajustar el tamaño del texto si es necesario */
+    background-color: #f4f4f4; /* Opcional: cambiar el fondo para distinguir */
+}
+
 .cell {
     border: 1px solid #ddd;
     padding: 20px;
