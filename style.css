@@ -44,6 +44,12 @@ header nav ul li a.active {
     margin: auto;
 }
 
+.flex-container {
+    display: flex; /* Flexbox para alinear elementos en fila */
+    align-items: center; /* Alineación vertical */
+    gap: 15px; /* Espaciado entre la imagen y el texto */
+}
+
 .hero {
     text-align: center;
     padding: 2rem 0;
