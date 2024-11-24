@@ -173,3 +173,16 @@ footer {
     color: #555;
 }
 
+.nested-grid a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    text-align: center;
+}
+
+.nested-grid a div {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
