@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Sphere - Research Group</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Sphere – Research Group</title>
+  <link rel="stylesheet" href="style.css?v=20250826">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="teaching.html">Teaching</a></li>
-                    <li><a href="lectures.html">Lectures</a></li>
-                    <li><a href="downloads.html">Downloads</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-            <!-- Hero Image -->
-        <div class="flex-container">
-           <img src="pictures/logoSphere.png" alt="Logo" class="logo">
-           <h1>Simulation of Phenomena in Hypersonic Environments and Research in Engineering</h1>
-        </div>
-    </header>
+  <header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <section class="content">
+  <div class="container site-header__bar">
+    <a class="brand" href="index.html">
+      <img src="pictures/logoSphere.png" alt="Sphere logo" class="logo" />
+      <span class="title">SPHERE · Research Group</span>
+    </a>
+
+    <button class="nav-toggle" data-nav-toggle aria-controls="site-menu" aria-expanded="false" aria-label="Toggle navigation">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+    </button>
+
+    <nav class="nav" data-nav>
+      <div class="nav__panel">
+        <ul id="site-menu" class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="research.html">Research</a></li>
+          <li><a class="nav__link" href="teaching.html">Teaching</a></li>
+          <li><a class="nav__link" href="lectures.html">Lectures</a></li>
+          <li><a class="nav__link" href="downloads.html">Downloads</a></li>
+          <li><a class="nav__link" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!--div class="container hero hero--bg" style="--hero-bg: url('pictures/marsZoom.png')"-->
+  <div class="container hero hero--bg" style="--hero-title-size: clamp(0.95rem, 0.5rem + 1vw, 1.2rem);">
+    <img src="pictures/logoSphere.png" alt="Sphere logo" class="logo" />
+    <h1>Simulation of Phenomena in Hypersonic Environments: Research & Engineering</h1>
+  </div>
+</header>
+
+  <main id="main">
+<section class="content">
         <h1>Contact</h1>
         <p>Email: <a href="mailto:josemiguel.perez@upm.es">josemiguel.perez@upm.es</a></p>
         <p>University: <a href="https://www.etsiae.upm.es/" target="_blank">Visit the website of my university</a></p>
@@ -46,10 +61,11 @@
     </iframe>
 </div>
     </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2024 Sphere. CopyRight All Rights Reserved. </p>
-    </footer>
+  <footer>
+    <p>&copy; 2024 Sphere. All rights reserved.</p>
+  </footer>
+  <script src="menu.js" defer></script>
 </body>
 </html>
-
