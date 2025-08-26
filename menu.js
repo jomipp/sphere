@@ -5,11 +5,10 @@
   const nav = document.querySelector('[data-nav]');
   if(!toggle || !nav) return;
 
-  function set(open){
-    nav.classList.toggle('is-open', open);
+  function set(open){nav.classList.toggle('is-open', open);
     toggle.setAttribute('aria-expanded', String(open));
     document.body.style.overflow = open ? 'hidden' : '';
-  }
+  ; try{document.querySelector('.site-header')?.classList.toggle('nav-open', open);}catch(e){}; try{document.body.classList.toggle('nav-open', open);}catch(e){}}
 
   toggle.addEventListener('click', () => set(!nav.classList.contains('is-open')));
 

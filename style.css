@@ -301,3 +301,29 @@ footer p{ text-align: center; color: var(--muted); margin: 0; font-size: .95rem;
   z-index: 900;
 }
 .nav.is-open::before{ opacity: 1; }
+
+
+/* --- Solid mobile menu panel + header when open --- */
+/* Prefer CSS :has(); fallback uses .nav-open class set by JS */
+@media (max-width: 900px){
+  .site-header:has(.nav.is-open),
+  .site-header.nav-open{
+    background: #ffffff !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border-bottom-color: var(--border) !important;
+  }
+  .nav__panel{
+    background: #ffffff !important;
+    color: var(--text) !important;
+    box-shadow: 0 24px 60px rgba(2,6,23,.18) !important;
+    z-index: 1000 !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+  .nav__link{ color: var(--text) !important; }
+  .nav__link:hover{ background: #f1f5f9 !important; }
+}
+
+/* Ensure the overlay sits behind the panel for readability */
+.nav::before{ z-index: 900 !important; }
